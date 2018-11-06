@@ -1,10 +1,11 @@
 {
   "name": "telkomweb",
   "version": "1.0.0",
-  "description": "",
+  "description": "Web Admin Telkom Apps",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,18 @@
   "bugs": {
     "url": "https://github.com/handharbeni/TelkomWeb/issues"
   },
-  "homepage": "https://github.com/handharbeni/TelkomWeb#readme"
+  "homepage": "https://github.com/handharbeni/TelkomWeb#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "compression": "^1.7.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "fs": "0.0.1-security",
+    "helmet": "^3.14.0",
+    "mime-types": "^2.1.21",
+    "nodemon": "^1.18.6",
+    "read-chunk": "^3.0.0",
+    "url": "^0.11.0",
+    "valid-url": "^1.0.9"
+  }
 }
